@@ -1,6 +1,5 @@
 import './globals.css'
 
-
 export const metadata = {
   title: 'Яндекс.Дом',
   description: 'Дом.Яндекс',
