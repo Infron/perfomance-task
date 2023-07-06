@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Event(props) {
+function Event(props) {
     const ref = React.useRef();
 
     const { onSize } = props;
@@ -23,3 +23,5 @@ export default function Event(props) {
         </button>
     </li>);
 }
+
+export default React.memo(Event);
